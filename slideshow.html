@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="jquery.cycle.all.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(`.slideshow`).cycle({
+          fx: `fade`
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="slideshow">
+      <img src="image1.jpg" width="200" height="200" />
+      <img src="image2.jpg" width="200" height="200" />
+      <img src="image3.jpg" width="200" height="200" />
+    </div>
+  </body>
+</html>
