@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <link rel="stylesheet" href="./assets/css/style.css">
+            <script type="text/javascript" src="./assets/js/jquery-1.4.2.min.js"></script>
+            <script type="text/javascript" src="./assets/js/hoverIntent.js"></script>
+            <script type="text/javascript" src="./assets/js/jquery.js"></script>
+            <script type="text/javascript" src="assets/js/superfish.min.js"></script>
+            <script type="text/javascript" src="./assets/js/superfish.js"></script>
+            <script type="text/javascript" src="assets/js/supersubs.js"></script>
+            <script type="text/javascript">
+                  jQuery(function(){
+                        jQuery(`ul.menu`).superfish({
+                              animation:
+                              {opacity:`show`, height:`show`}, 
+                              speed: `slow`,
+                              autoArrows: true
+                        });
+                  });
+            </script>
+            <title>Dropdown Menu</title>
+      </head>
+      <body>
+            <ul class="menu">
+                  <li><a href="#a">Books</a>
+                        <ul>
+                              <li><a href="#">TextBook</a></li>
+                              <li><a href="#">Magazine</a></li>
+                        </ul>
+                  </li>
+                  <li><a href="#">Movies, Music & Games</a>
+                        <ul>
+                              <li><a href="#">Movie</a>
+                                    <ul>
+                                          <li><a href="#">Animation</a></li>
+                                          <li><a href="#">Comedy</a></li>
+                                          <li><a href="#">Action</a></li>
+                                    </ul>
+                              </li>
+                              <li><a href="#">Music</a></li>
+                              <li><a href="#">Games</a></li>
+                        </ul>
+                  </li>
+                  <li><a href="#">Electronics</a>
+                        <ul>
+                              <li><a href="#">TV & Video</a></li>
+                              <li><a href="#">Computer</a></li>
+                              <li><a href="#">Musical Instrument</a></li>
+                              <li><a href="#">Communication Devices</a></li>
+                              <li><a href="#">Camera</a></li>
+                        </ul>
+                  </li>
+                  <li><a href="#">Home & Garden</a></li>
+                  <li><a href="#">Pet Supplies</a></li>
+            </ul>
+      </body>
+</html>
